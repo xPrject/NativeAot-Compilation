@@ -10,7 +10,7 @@ append to project file to enable native code compilation
 Install nuget package
 ### WinFormsComInterop
 
-Edit Program.cs and add
+Edit Program.cs and add to Main
 ### ComWrappers.RegisterForMarshalling(WinFormsComInterop.WinFormsComWrappers.Instance);
 
 Edit Project File and append
